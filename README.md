@@ -2,7 +2,7 @@
 
 This repository contains the source files for my personal engineering portfolio website.
 
-The site is built with MkDocs Material and is intended to be published with GitHub Pages at `https://ferranlopezEngDev.github.io`.
+The site is built with MkDocs Material and is intended to be published with GitHub Pages at `https://ferranlopezengdev.github.io`.
 
 The portfolio presents a professional engineering profile focused on mechanical engineering, computational tools, CAD/CAE workflows, simulation, automation, engineering software, and technical documentation.
 
