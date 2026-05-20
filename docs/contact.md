@@ -1,5 +1,11 @@
 # Contact
 
-For professional inquiries, collaboration, or technical discussion, this page will provide contact details and links to relevant profiles.
+This page is intended for professional contact details and public profile links.
 
-The current repository structure is set up for a clean engineering portfolio with a focus on technical work.
+For now, the portfolio is organized first around technical documentation and project structure. Direct contact details can be added here as the public portfolio is expanded.
+
+## Contact topics
+
+- Engineering software and automation
+- CAD/CAE and simulation workflows
+- Technical collaboration and documentation

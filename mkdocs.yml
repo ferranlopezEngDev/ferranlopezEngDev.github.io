@@ -1,11 +1,21 @@
-site_name: ferranlopezEngDev Portfolio
+site_name: Ferran López Sierra — Engineering Portfolio
 site_description: Mechanical engineering portfolio with computational tools, CAD/CAE workflows, simulation, automation, and technical documentation.
 site_author: Ferran López Sierra
+site_url: https://ferranlopezEngDev.github.io
+
 repo_name: ferranlopezEngDev/ferranlopezEngDev.github.io
 repo_url: https://github.com/ferranlopezEngDev/ferranlopezEngDev.github.io
 
 theme:
   name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
 
 nav:
   - Home: index.md
@@ -24,3 +34,15 @@ nav:
   - Reports: reports/index.md
   - CV: cv.md
   - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true

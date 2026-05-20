@@ -1,6 +1,10 @@
 # Ferran López Sierra — Engineering Portfolio
 
-This portfolio presents a professional engineering profile grounded in mechanical engineering, computational engineering, engineering software, CAD/CAE workflows, numerical simulation, automation, technical documentation, and open-source engineering tools.
+This portfolio presents a mechanical engineering profile with a strong computational component. The focus is on engineering software, CAD/CAE workflows, simulation, automation, and technical documentation developed with practical open-source tools.
+
+## Profile direction
+
+The portfolio is structured as a technical record of ongoing work, academic foundations, and learning-oriented engineering projects. It is intended to show how mechanical engineering methods can be combined with programming, reproducible workflows, and engineering analysis tools without overstating project maturity.
 
 ## Focus areas
 
@@ -13,7 +17,16 @@ This portfolio presents a professional engineering profile grounded in mechanica
 - Technical documentation
 - Open-source engineering tools
 
-## Technical Stack
+## Featured projects
+
+| Project | Focus | Status |
+| --- | --- | --- |
+| [HN3Ttk — Hydraulic Network Toolkit](projects/hn3ttk.md) | Hydraulic network modeling and analysis | In development |
+| [Hydranet TFG](projects/hydranet-tfg.md) | Academic hydraulic systems project | Academic project / In development |
+| [Structural Automation Lab](projects/structural-automation-lab.md) | CAD/CAE workflow automation | Planned |
+| [CAD/CAE Open-Source Workflows](projects/cad-cae-workflows.md) | Reproducible open-source engineering workflows | Planned / Learning phase |
+
+## Technical stack
 
 ### Programming and scientific computing
 
@@ -70,3 +83,9 @@ This portfolio presents a professional engineering profile grounded in mechanica
 
 - Inkscape
 - Blender
+
+## Current status
+
+- The website is being built as a MkDocs Material portfolio published through GitHub Pages.
+- Several project pages are intentionally marked as planned, academic, or in learning phase while documentation is expanded.
+- The main short-term goal is to document engineering workflows, numerical studies, and open-source toolchains in a clear and reproducible way.
