@@ -1,0 +1,32 @@
+# Python environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MkDocs build output
+/site
+/site/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and caches
+.python-version
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# Local environment variables
+.env

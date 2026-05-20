@@ -1,0 +1,26 @@
+site_name: ferranlopezEngDev Portfolio
+site_description: Mechanical engineering portfolio with computational tools, CAD/CAE workflows, simulation, automation, and technical documentation.
+site_author: Ferran López Sierra
+repo_name: ferranlopezEngDev/ferranlopezEngDev.github.io
+repo_url: https://github.com/ferranlopezEngDev/ferranlopezEngDev.github.io
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects:
+      - Overview: projects/index.md
+      - HN3Ttk — Hydraulic Network Toolkit: projects/hn3ttk.md
+      - Hydranet TFG: projects/hydranet-tfg.md
+      - UAV CAE Learning Lab: projects/uav-cae-learning-lab.md
+      - Structural Automation Lab: projects/structural-automation-lab.md
+      - CAD/CAE Open-Source Workflows: projects/cad-cae-workflows.md
+      - Geometry & Rotations Study: projects/geometry-rotations.md
+      - Computational Engineering Notes: projects/computational-engineering-notes.md
+  - Technical Notes: technical-notes/index.md
+  - Tools: tools/index.md
+  - Reports: reports/index.md
+  - CV: cv.md
+  - Contact: contact.md
