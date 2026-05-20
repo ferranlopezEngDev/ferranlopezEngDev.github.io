@@ -1,11 +1,15 @@
 # Contact
 
-This page is intended for professional contact details and public profile links.
+This page provides the main public contact points currently associated with the portfolio.
 
-For now, the portfolio is organized first around technical documentation and project structure. Direct contact details can be added here as the public portfolio is expanded.
+## Public links
+
+- GitHub: [https://github.com/ferranlopezEngDev](https://github.com/ferranlopezEngDev)
+- LinkedIn: [https://www.linkedin.com/in/ferran-lopez-sierra-2b7461240/](https://www.linkedin.com/in/ferran-lopez-sierra-2b7461240/)
+- Email: [ferranlopezsierra.eng@gmail.com](mailto:ferranlopezsierra.eng@gmail.com)
 
 ## Contact topics
 
-- Engineering software and automation
+- Engineering software, CAE automation, and modelling tools
 - CAD/CAE and simulation workflows
-- Technical collaboration and documentation
+- Technical documentation and portfolio-related discussions

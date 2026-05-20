@@ -2,9 +2,18 @@
 
 This repository contains the source files for my personal engineering portfolio website.
 
-The site is built with MkDocs Material and is intended to be published with GitHub Pages at `https://ferranlopezengdev.github.io`.
+The site is built with MkDocs Material and published with GitHub Pages at `https://ferranlopezengdev.github.io`.
 
-The portfolio presents a professional engineering profile focused on mechanical engineering, computational tools, CAD/CAE workflows, simulation, automation, engineering software, and technical documentation.
+The portfolio is intended to document a developing profile at the intersection of mechanical engineering, computational engineering, CAD/CAE workflows, numerical simulation, technical automation, and engineering software.
+
+## What This Repository Contains
+
+- MkDocs source files under `docs/`
+- Site configuration in `mkdocs.yml`
+- Minimal Python dependency definition in `requirements.txt`
+- Portfolio content focused on projects, tools, technical notes, reports, and profile pages
+
+The editable source stays on `main`. The generated static site is deployed to `gh-pages`.
 
 ## Local development
 
@@ -20,18 +29,54 @@ mkdocs serve
 
 The local development server is available at `http://127.0.0.1:8000`.
 
-## Build validation
+## Build
 
-Use strict mode before publishing:
+Use strict mode to validate the site before publishing:
 
 ```bash
 mkdocs build --strict
 ```
 
-## GitHub Pages deployment
+## Deploy
 
 Deploy the generated site to the `gh-pages` branch with:
 
 ```bash
 mkdocs gh-deploy --force
 ```
+
+`main` should keep the source files. `gh-pages` should contain the generated HTML managed by MkDocs.
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── mkdocs.yml
+├── requirements.txt
+└── docs/
+    ├── index.md
+    ├── about.md
+    ├── projects/
+    │   ├── index.md
+    │   ├── hn3ttk.md
+    │   ├── hydranet-tfg.md        # legacy / unlisted historical page
+    │   ├── uav-cae-learning-lab.md
+    │   ├── structural-automation-lab.md
+    │   ├── cad-cae-workflows.md
+    │   ├── geometry-rotations.md
+    │   └── computational-engineering-notes.md
+    ├── technical-notes/
+    │   └── index.md
+    ├── tools/
+    │   └── index.md
+    ├── reports/
+    │   └── index.md
+    ├── cv.md
+    └── contact.md
+```
+
+## Notes
+
+- Hydranet is kept only as legacy context and is no longer treated as a main standalone project line.
+- The portfolio is intentionally conservative in tone: active development, academic work, learning exercises, and planned work are clearly distinguished.
