@@ -10,5 +10,3 @@ This section gathers the main project lines currently documented in the portfoli
 | CAD/CAE Open-Source Workflows | Parametric geometry, meshing, simulation workflows, post-processing | FreeCAD, SolveSpace, OpenSCAD, Gmsh, Code_Aster, CalculiX, Elmer FEM, ParaView | Planned / learning phase | Collect small reproducible examples that move from geometry to analysis and interpretation |
 | Geometry & Rotations Study | Coordinate systems, rotation handling, robust geometry logic | Python, NumPy, SciPy, SymPy | Learning phase | Develop mathematical foundations that support CAD, simulation preprocessing, and engineering software |
 | Computational Engineering Notes | Numerical methods, simulation methods, technical reporting | Markdown, LaTeX, Python, GNU Octave, Scilab | Planned | Build a compact knowledge base that connects theory with engineering computation practice |
-
-Hydranet is not treated as a separate flagship line. It is retained only as legacy academic context within [HN3Ttk — Hydraulic Network Toolkit](hn3ttk.md).
