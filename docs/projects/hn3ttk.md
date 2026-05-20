@@ -6,13 +6,11 @@ HN3Ttk is an in-development hydraulic network modelling toolkit intended for bui
 
 The current direction is closer to a flexible toolkit or framework than to a closed end-user application. The emphasis is on modelling abstractions, solver behaviour, validation cases, and documentation that can support later refinement.
 
-## Origin: Hydranet as Legacy Prototype
+## Origin as an Earlier Academic Prototype
 
-HN3Ttk evolved from an earlier academic prototype called Hydranet, developed around final degree project work. Hydranet was useful as a first proof of concept for hydraulic network simulation, but it is now considered obsolete as a standalone direction.
+HN3Ttk evolved from an earlier academic prototype developed around final degree project work. That first implementation was useful as a proof of concept for hydraulic network simulation, but it is no longer treated as a separate direction in the portfolio.
 
 The main lesson from that first implementation was that a cleaner and more extensible structure was needed. HN3Ttk is intended to keep the useful modelling ideas while moving toward a more modular, programmatic, and maintainable architecture.
-
-For historical context, the earlier prototype is still documented in [Hydranet TFG — Legacy Prototype](hydranet-tfg.md).
 
 ## Technical Motivation
 
@@ -105,6 +103,4 @@ The project direction is active, but the documented scope should still be treate
 - [Projects overview](index.md)
 - [HN3Ttk repository](https://github.com/ferranlopezEngDev/HN3Ttk)
 - [Technical note: Nonlinear Solvers for Hydraulic Networks](../technical-notes/nonlinear-solvers-hydraulic-networks.md)
-- [Hydranet TFG — Legacy Prototype](hydranet-tfg.md)
-- [hydranet_tfg legacy repository](https://github.com/ferranlopezEngDev/hydranet_tfg)
 - [Portfolio repository](https://github.com/ferranlopezEngDev/ferranlopezEngDev.github.io)

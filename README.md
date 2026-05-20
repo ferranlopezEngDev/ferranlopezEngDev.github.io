@@ -60,7 +60,6 @@ mkdocs gh-deploy --force
     ├── projects/
     │   ├── index.md
     │   ├── hn3ttk.md
-    │   ├── hydranet-tfg.md        # legacy / unlisted historical page
     │   ├── uav-cae-learning-lab.md
     │   ├── structural-automation-lab.md
     │   ├── cad-cae-workflows.md
@@ -78,5 +77,4 @@ mkdocs gh-deploy --force
 
 ## Notes
 
-- Hydranet is kept only as legacy context and is no longer treated as a main standalone project line.
 - The portfolio is intentionally conservative in tone: active development, academic work, learning exercises, and planned work are clearly distinguished.
