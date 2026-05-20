@@ -402,34 +402,6 @@
   
   
     <li class="md-nav__item">
-      <a href="hydranet-tfg/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Hydranet TFG
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="uav-cae-learning-lab/" class="md-nav__link">
         
   
@@ -576,9 +548,27 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../technical-notes/" class="md-nav__link">
+    
+    
+    
+    
+      
         
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
   
   
   <span class="md-ellipsis">
@@ -592,7 +582,79 @@
   
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Technical Notes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technical-notes/nonlinear-solvers-hydraulic-networks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nonlinear Solvers for Hydraulic Networks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -744,61 +806,63 @@
 
 
 <h1 id="projects">Projects<a class="headerlink" href="#projects" title="Permanent link">&para;</a></h1>
-<p>This section gathers the main project areas currently documented in the portfolio. The status labels are intentionally explicit so that academic work, learning exercises, planned initiatives, and active development are clearly distinguished.</p>
+<p>This section gathers the main project lines currently documented in the portfolio. Status labels are explicit so that completed context, academic work, active development, learning projects, and planned work are not mixed together.</p>
 <table>
 <thead>
 <tr>
 <th>Project</th>
-<th>Technical area</th>
+<th>Area</th>
 <th>Main technologies</th>
 <th>Status</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>HN3Ttk — Hydraulic Network Toolkit</td>
-<td>Hydraulic network modeling and analysis</td>
-<td>Python, C++, OpenModelica, GNU Octave</td>
+<td>Hydraulic networks, nonlinear solvers, modelling abstractions</td>
+<td>Python, C++, NumPy, SciPy, matplotlib</td>
 <td>In development</td>
-</tr>
-<tr>
-<td>Hydranet TFG</td>
-<td>Academic hydraulic systems project</td>
-<td>Python, FreeCAD, NumPy, pandas</td>
-<td>Academic project / In development</td>
+<td>Build a cleaner and more modular hydraulic network toolkit inspired by lessons from an earlier academic prototype</td>
 </tr>
 <tr>
 <td>UAV CAE Learning Lab</td>
-<td>Learning-oriented CFD and FEA workflows</td>
-<td>OpenFOAM, SU2, XFOIL, XFLR5</td>
+<td>Fixed-wing UAV theory, CAD, FEA, CFD learning workflows</td>
+<td>FreeCAD, Gmsh, OpenFOAM, XFOIL, XFLR5, AVL, Python</td>
 <td>Early learning phase</td>
+<td>Develop step-by-step open-source CAD/CAE studies without presenting an unfinished UAV design as a final product</td>
 </tr>
 <tr>
 <td>Structural Automation Lab</td>
-<td>Structural automation and model preparation</td>
-<td>C#, Python, FreeCAD, SolveSpace</td>
-<td>Planned</td>
+<td>Structural analysis, local/global axes, preprocessing automation</td>
+<td>Python, C++, C#, NumPy, SymPy, Gmsh</td>
+<td>Planned / early concept</td>
+<td>Build foundations for structural modelling, element transformations, and solver-oriented automation</td>
 </tr>
 <tr>
 <td>CAD/CAE Open-Source Workflows</td>
-<td>Open-source geometry and simulation workflows</td>
-<td>FreeCAD, SolveSpace, OpenSCAD, OpenCascade / OCCT</td>
-<td>Planned / Learning phase</td>
+<td>Parametric geometry, meshing, simulation workflows, post-processing</td>
+<td>FreeCAD, SolveSpace, OpenSCAD, Gmsh, Code_Aster, CalculiX, Elmer FEM, ParaView</td>
+<td>Planned / learning phase</td>
+<td>Collect small reproducible examples that move from geometry to analysis and interpretation</td>
 </tr>
 <tr>
 <td>Geometry &amp; Rotations Study</td>
-<td>Geometry processing and coordinate transformations</td>
+<td>Coordinate systems, rotation handling, robust geometry logic</td>
 <td>Python, NumPy, SciPy, SymPy</td>
 <td>Learning phase</td>
+<td>Develop mathematical foundations that support CAD, simulation preprocessing, and engineering software</td>
 </tr>
 <tr>
 <td>Computational Engineering Notes</td>
-<td>Technical notes and engineering documentation</td>
-<td>Markdown, LaTeX, Python, GNU Octave</td>
+<td>Numerical methods, simulation methods, technical reporting</td>
+<td>Markdown, LaTeX, Python, GNU Octave, Scilab</td>
 <td>Planned</td>
+<td>Build a compact knowledge base that connects theory with engineering computation practice</td>
 </tr>
 </tbody>
 </table>
+<p>Hydranet is not treated as a separate flagship line. It is retained only as legacy academic context within <a href="hn3ttk/">HN3Ttk — Hydraulic Network Toolkit</a>.</p>
 
 
 
